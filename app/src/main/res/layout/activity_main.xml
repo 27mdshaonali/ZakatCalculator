@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    >
+
+
+
+
+    <ImageView
+        android:id="@+id/topImage"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_170sdp"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/bgtop"
+        android:scaleType="centerCrop"
+        />
+
+
+
+    <TextView
+        android:id="@+id/bismillah"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="بِسْمِ اللهِ الرَّحْمٰنِ الرَّحِيْمِ"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@color/White"
+        android:gravity="center_horizontal|clip_horizontal"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        />
+
+
+
+
+    <TextView
+        android:layout_below="@id/bismillah"
+        android:id="@+id/zakat1st"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Zakat_first"
+        android:textSize="20sp"
+        android:textStyle="normal|italic"
+        android:textColor="@color/White"
+        android:gravity="center_horizontal|clip_horizontal"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:padding="@dimen/_2sdp"
+        android:layout_marginLeft="@dimen/_2sdp"
+        android:layout_marginRight="@dimen/_2sdp"
+        />
+
+
+
+
+    <LinearLayout
+        android:weightSum="3"
+        android:orientation="vertical"
+        android:layout_centerInParent="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="@dimen/_6sdp"
+        android:background="@drawable/colourfull"
+        android:layout_below="@id/topImage"
+        >
+
+
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:weightSum="2"
+            android:orientation="horizontal"
+            android:layout_centerInParent="true"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+
+
+            <androidx.cardview.widget.CardView
+                android:foreground="?attr/selectableItemBackground"
+                android:id="@+id/zakat_keno_diben"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                app:cardElevation="@dimen/_4sdp"
+                app:cardCornerRadius="@dimen/_8sdp"
+                app:cardUseCompatPadding="true"
+
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:layout_gravity="center_vertical|center_horizontal"
+                    android:orientation="vertical"
+                    >
+
+
+                    <com.airbnb.lottie.LottieAnimationView
+                        android:id="@+id/animationView"
+                        android:layout_width="@dimen/_60sdp"
+                        android:layout_height="@dimen/_60sdp"
+                        app:lottie_rawRes="@raw/zakat_animation_lnkvgulr"
+                        app:lottie_autoPlay="true"
+                        android:scaleType="centerCrop"
+                        app:lottie_loop="true"
+                        android:layout_gravity="center"
+                        />
+
+
+
+                    <TextView
+                        android:layout_marginTop="@dimen/_1sdp"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="যাকাত"
+                        android:textSize="16sp"
+                        android:textColor="#2B2A2A"
+                        android:fontFamily="@font/fl_italic_unicode"
+                        />
+
+
+
+
+                </LinearLayout>
+
+
+
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:foreground="?attr/selectableItemBackground"
+                android:id="@+id/zakater_hoqudar"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                app:cardElevation="@dimen/_4sdp"
+                app:cardCornerRadius="@dimen/_8sdp"
+                app:cardUseCompatPadding="true"
+
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:layout_gravity="center_vertical|center_horizontal"
+                    android:orientation="vertical"
+                    >
+
+
+                    <com.airbnb.lottie.LottieAnimationView
+                        android:id="@+id/questionAnimationView"
+                        android:layout_width="@dimen/_60sdp"
+                        android:layout_height="@dimen/_60sdp"
+                        app:lottie_rawRes="@raw/poor_animation_lnkw9tkm"
+                        app:lottie_autoPlay="true"
+                        android:scaleType="centerCrop"
+                        app:lottie_loop="true"
+                        android:layout_gravity="center"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="@dimen/_1sdp"
+                        android:gravity="center"
+                        android:text="যাকাতের হকদার"
+                        android:textSize="16sp"
+                        android:textColor="#2B2A2A"
+                        android:fontFamily="@font/fl_italic_unicode"
+                        />
+
+
+
+
+                </LinearLayout>
+
+
+
+
+
+            </androidx.cardview.widget.CardView>
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:weightSum="2"
+            android:orientation="horizontal"
+            android:layout_centerInParent="true"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/hadise_zakat"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:foreground="?attr/selectableItemBackground"
+                app:cardCornerRadius="@dimen/_8sdp"
+                app:cardElevation="@dimen/_4sdp"
+                app:cardUseCompatPadding="true"
+
+                >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical|center_horizontal"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+
+                    <com.airbnb.lottie.LottieAnimationView
+                        android:id="@+id/hadisAnimationView"
+                        android:layout_width="@dimen/_60sdp"
+                        android:layout_height="@dimen/_60sdp"
+                        android:layout_gravity="center"
+                        android:scaleType="centerCrop"
+                        app:lottie_autoPlay="true"
+                        app:lottie_loop="true"
+                        app:lottie_rawRes="@raw/book_animation_lnkwsnsp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/fl_italic_unicode"
+                        android:gravity="center"
+                        android:text="হাদিসে যাকাত"
+                        android:textColor="#2B2A2A"
+                        android:textSize="16sp" />
+
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:foreground="?attr/selectableItemBackground"
+                android:id="@+id/zakater_shompod"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                app:cardElevation="@dimen/_4sdp"
+                app:cardCornerRadius="@dimen/_8sdp"
+                app:cardUseCompatPadding="true"
+
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:layout_gravity="center_vertical|center_horizontal"
+                    android:orientation="vertical"
+                    >
+
+
+                    <com.airbnb.lottie.LottieAnimationView
+                        android:id="@+id/zakaterShompodAnimationView"
+                        android:layout_width="@dimen/_60sdp"
+                        android:layout_height="@dimen/_60sdp"
+                        app:lottie_rawRes="@raw/goods_animation_lnkx8z3d"
+                        app:lottie_autoPlay="true"
+                        android:scaleType="centerCrop"
+                        app:lottie_loop="true"
+                        android:layout_gravity="center"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="@dimen/_1sdp"
+                        android:gravity="center"
+                        android:text="যাকাতের সম্পদ"
+                        android:textSize="16sp"
+                        android:textColor="#2B2A2A"
+                        android:fontFamily="@font/fl_italic_unicode"
+                        />
+
+
+
+
+                </LinearLayout>
+
+
+
+
+
+            </androidx.cardview.widget.CardView>
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:weightSum="2"
+            android:orientation="horizontal"
+            android:layout_centerInParent="true"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+
+
+            <androidx.cardview.widget.CardView
+                android:foreground="?attr/selectableItemBackground"
+                android:id="@+id/zakat_calculator"
+                android:layout_weight="2"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                app:cardElevation="@dimen/_4sdp"
+                app:cardCornerRadius="@dimen/_8sdp"
+                app:cardUseCompatPadding="true"
+
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:layout_gravity="center_vertical|center_horizontal"
+                    android:orientation="vertical"
+                    >
+
+
+                    <com.airbnb.lottie.LottieAnimationView
+                        android:id="@+id/calculatorAnimationView"
+                        android:layout_width="@dimen/_60sdp"
+                        android:layout_height="@dimen/_60sdp"
+                        app:lottie_rawRes="@raw/calculator_animation_lnkxayw0"
+                        app:lottie_autoPlay="true"
+                        android:scaleType="centerCrop"
+                        app:lottie_loop="true"
+                        android:layout_gravity="center"
+                        />
+
+                    <TextView
+                        android:layout_marginTop="@dimen/_1sdp"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="যাকাত ক্যালকুলেটর"
+                        android:textSize="16sp"
+                        android:textColor="#2B2A2A"
+                        android:fontFamily="@font/fl_italic_unicode"
+                        />
+
+
+
+
+                </LinearLayout>
+
+
+
+
+
+            </androidx.cardview.widget.CardView>
+
+
+
+
+
+        </LinearLayout>
+
+
+
+
+
+
+
+    </LinearLayout>
+
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,1031 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Zakat_Calculator"
+    android:background="@color/WhiteSmoke"
+    android:orientation="vertical"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="@dimen/_3sdp"
+
+        >
+        <LinearLayout
+            android:layout_gravity="top"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            tools:ignore="ExtraText"
+            android:layout_marginTop="@dimen/_10sdp"
+            >
+
+            //================GOLD====================//
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="স্বর্ণ"
+                android:textSize="@dimen/_18sdp"
+                android:textStyle="bold"
+                android:textColor="#393939"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2"
+                >
+
+                <TextView
+                    android:gravity="left"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="১৮ ক্যারেট"
+                    android:textSize="@dimen/_15sdp"
+                    android:textColor="#393939"
+                    android:layout_marginLeft="@dimen/_2sdp"
+                    />
+
+
+                <EditText
+                    android:id="@+id/caret18_gold"
+                    android:inputType="numberDecimal"
+                    android:gravity="right"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="ভরি "
+                    android:textSize="@dimen/_15sdp"
+                    android:textColor="#393939"
+                    android:layout_marginRight="@dimen/_2sdp"
+                    android:background="@drawable/editshape"
+                    android:paddingLeft="@dimen/_5sdp"
+                    android:paddingRight="@dimen/_5sdp"
+                    />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_marginTop="@dimen/_5sdp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2"
+                >
+
+                <TextView
+                    android:gravity="left"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="২১ ক্যারেট "
+                    android:textSize="@dimen/_15sdp"
+                    android:textColor="#393939"
+                    android:layout_marginLeft="@dimen/_2sdp"
+                    />
+
+
+                <EditText
+                    android:id="@+id/caret_21_gold"
+                    android:inputType="numberDecimal"
+                    android:gravity="right"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="ভরি "
+                    android:textSize="@dimen/_15sdp"
+                    android:textColor="#393939"
+                    android:layout_marginRight="@dimen/_2sdp"
+                    android:background="@drawable/editshape"
+                    android:paddingLeft="@dimen/_5sdp"
+                    android:paddingRight="@dimen/_5sdp"
+                    tools:ignore="DuplicateIds" />
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_marginTop="@dimen/_5sdp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2"
+                >
+
+                <TextView
+                    android:gravity="left"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="২১ ক্যারেট "
+                    android:textSize="@dimen/_15sdp"
+                    android:textColor="#393939"
+                    android:layout_marginLeft="@dimen/_2sdp"
+                    />
+
+
+                <EditText
+                    android:id="@+id/caret22_gold"
+                    android:inputType="numberDecimal"
+                    android:gravity="right"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="ভরি "
+                    android:textSize="@dimen/_15sdp"
+                    android:textColor="#393939"
+                    android:layout_marginRight="@dimen/_2sdp"
+                    android:background="@drawable/editshape"
+                    android:paddingLeft="@dimen/_5sdp"
+                    android:paddingRight="@dimen/_5sdp"
+                    />
+
+            </LinearLayout>
+
+
+
+            //================GOLD====================//
+
+
+
+
+            //================RUPA====================//
+
+
+            <TextView
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="রুপা"
+                android:textSize="@dimen/_18sdp"
+                android:textStyle="bold"
+                android:textColor="#393939"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2"
+                >
+
+                <TextView
+                    android:gravity="left"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="১৮ ক্যারেট"
+                    android:textSize="@dimen/_15sdp"
+                    android:textColor="#393939"
+                    android:layout_marginLeft="@dimen/_2sdp"
+                    />
+
+
+                <EditText
+                    android:id="@+id/caret18_rupa"
+                    android:inputType="numberDecimal"
+                    android:gravity="right"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="তোলা "
+                    android:textSize="@dimen/_15sdp"
+                    android:textColor="#393939"
+                    android:layout_marginRight="@dimen/_2sdp"
+                    android:background="@drawable/editshape"
+                    android:paddingLeft="@dimen/_5sdp"
+                    android:paddingRight="@dimen/_5sdp"
+                    />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_marginTop="@dimen/_5sdp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2"
+                >
+
+                <TextView
+                    android:gravity="left"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="২১ ক্যারেট "
+                    android:textSize="@dimen/_15sdp"
+                    android:textColor="#393939"
+                    android:layout_marginLeft="@dimen/_2sdp"
+                    />
+
+
+                <EditText
+                    android:id="@+id/caret21_rupa"
+                    android:inputType="numberDecimal"
+                    android:gravity="right"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="তোলা "
+                    android:textSize="@dimen/_15sdp"
+                    android:textColor="#393939"
+                    android:layout_marginRight="@dimen/_2sdp"
+                    android:background="@drawable/editshape"
+                    android:paddingLeft="@dimen/_5sdp"
+                    android:paddingRight="@dimen/_5sdp"
+                    tools:ignore="DuplicateIds" />
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_marginTop="@dimen/_5sdp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2"
+                >
+
+                <TextView
+                    android:gravity="left"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="২১ ক্যারেট "
+                    android:textSize="@dimen/_15sdp"
+                    android:textColor="#393939"
+                    android:layout_marginLeft="@dimen/_2sdp"
+                    />
+
+
+                <EditText
+                    android:id="@+id/caret22_rupa"
+                    android:inputType="numberDecimal"
+                    android:gravity="right"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="তোলা "
+                    android:textSize="@dimen/_15sdp"
+                    android:textColor="#393939"
+                    android:layout_marginRight="@dimen/_2sdp"
+                    android:background="@drawable/editshape"
+                    android:paddingLeft="@dimen/_5sdp"
+                    android:paddingRight="@dimen/_5sdp"
+                    />
+
+            </LinearLayout>
+
+            //================RUPA====================//
+
+
+
+            //================ NOGOD ORTHO =========================//
+
+            <TextView
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="নগদ অর্থ"
+                android:textSize="@dimen/_18sdp"
+                android:textStyle="bold"
+                android:textColor="#393939"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2"
+                >
+
+                <TextView
+                    android:gravity="left"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="নগদ টাকা"
+                    android:textSize="@dimen/_15sdp"
+                    android:textColor="#393939"
+                    android:layout_marginLeft="@dimen/_2sdp"
+                    />
+
+
+                <EditText
+                    android:id="@+id/nijer_hate"
+                    android:inputType="numberDecimal"
+                    android:gravity="right"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="টাকার পরিমাণ "
+                    android:textSize="@dimen/_15sdp"
+                    android:textColor="#393939"
+                    android:layout_marginRight="@dimen/_2sdp"
+                    android:background="@drawable/editshape"
+                    android:paddingLeft="@dimen/_5sdp"
+                    android:paddingRight="@dimen/_5sdp"
+                    />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_marginTop="@dimen/_5sdp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2"
+                >
+
+                <TextView
+                    android:gravity="left"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="জমানো টাকা"
+                    android:textSize="@dimen/_15sdp"
+                    android:textColor="#393939"
+                    android:layout_marginLeft="@dimen/_2sdp"
+                    />
+
+
+                <EditText
+                    android:id="@+id/jomano_taka"
+                    android:inputType="number"
+                    android:gravity="right"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="টাকার পরিমাণ "
+                    android:textSize="@dimen/_15sdp"
+                    android:textColor="#393939"
+                    android:layout_marginRight="@dimen/_2sdp"
+                    android:background="@drawable/editshape"
+                    android:paddingLeft="@dimen/_5sdp"
+                    android:paddingRight="@dimen/_5sdp"
+                    tools:ignore="DuplicateIds" />
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_marginTop="@dimen/_5sdp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2"
+                >
+
+                <TextView
+                    android:gravity="left"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="ব্যাংকে জমানো টাকা "
+                    android:textSize="@dimen/_15sdp"
+                    android:textColor="#393939"
+                    android:layout_marginLeft="@dimen/_2sdp"
+                    />
+
+
+                <EditText
+                    android:id="@+id/bank_tk"
+                    android:inputType="numberDecimal"
+                    android:gravity="right"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="টাকার পরিমাণ "
+                    android:textSize="@dimen/_15sdp"
+                    android:textColor="#393939"
+                    android:layout_marginRight="@dimen/_2sdp"
+                    android:background="@drawable/editshape"
+                    android:paddingLeft="@dimen/_5sdp"
+                    android:paddingRight="@dimen/_5sdp"
+                    />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_marginTop="@dimen/_5sdp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2"
+                >
+
+                <TextView
+                    android:gravity="left"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="প্রভিডেন্ট ফান্ড "
+                    android:textSize="@dimen/_15sdp"
+                    android:textColor="#393939"
+                    android:layout_marginLeft="@dimen/_2sdp"
+                    />
+
+
+                <EditText
+                    android:id="@+id/provident_fund"
+                    android:inputType="numberDecimal"
+                    android:gravity="right"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="টাকার পরিমাণ "
+                    android:textSize="@dimen/_15sdp"
+                    android:textColor="#393939"
+                    android:layout_marginRight="@dimen/_2sdp"
+                    android:background="@drawable/editshape"
+                    android:paddingLeft="@dimen/_5sdp"
+                    android:paddingRight="@dimen/_5sdp"
+                    />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_marginTop="@dimen/_5sdp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2"
+                >
+
+                <TextView
+                    android:gravity="left"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="বৈদেশিক মুদ্রা  "
+                    android:textSize="@dimen/_15sdp"
+                    android:textColor="#393939"
+                    android:layout_marginLeft="@dimen/_2sdp"
+                    />
+
+
+                <EditText
+                    android:id="@+id/boideshik_mudra"
+                    android:inputType="numberDecimal"
+                    android:gravity="right"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="টাকার পরিমাণ "
+                    android:textSize="@dimen/_15sdp"
+                    android:textColor="#393939"
+                    android:layout_marginRight="@dimen/_2sdp"
+                    android:background="@drawable/editshape"
+                    android:paddingLeft="@dimen/_5sdp"
+                    android:paddingRight="@dimen/_5sdp"
+                    />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_marginTop="@dimen/_5sdp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2"
+                >
+
+                <TextView
+                    android:gravity="left"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="বীমা "
+                    android:textSize="@dimen/_15sdp"
+                    android:textColor="#393939"
+                    android:layout_marginLeft="@dimen/_2sdp"
+                    />
+
+
+                <EditText
+                    android:id="@+id/bima"
+                    android:inputType="numberDecimal"
+                    android:gravity="right"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="টাকার পরিমাণ "
+                    android:textSize="@dimen/_15sdp"
+                    android:textColor="#393939"
+                    android:layout_marginRight="@dimen/_2sdp"
+                    android:background="@drawable/editshape"
+                    android:paddingLeft="@dimen/_5sdp"
+                    android:paddingRight="@dimen/_5sdp"
+                    />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_marginTop="@dimen/_5sdp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2"
+                >
+
+                <TextView
+                    android:gravity="left"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="প্রদত্ত ঋণ "
+                    android:textSize="@dimen/_15sdp"
+                    android:textColor="#393939"
+                    android:layout_marginLeft="@dimen/_2sdp"
+                    />
+
+
+                <EditText
+                    android:id="@+id/prodotto_loan"
+                    android:inputType="numberDecimal"
+                    android:gravity="right"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="টাকার পরিমাণ "
+                    android:textSize="@dimen/_15sdp"
+                    android:textColor="#393939"
+                    android:layout_marginRight="@dimen/_2sdp"
+                    android:background="@drawable/editshape"
+                    android:paddingLeft="@dimen/_5sdp"
+                    android:paddingRight="@dimen/_5sdp"
+                    />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_marginTop="@dimen/_5sdp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2"
+                >
+
+                <TextView
+                    android:gravity="left"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="সিকিউরিটি "
+                    android:textSize="@dimen/_15sdp"
+                    android:textColor="#393939"
+                    android:layout_marginLeft="@dimen/_2sdp"
+                    />
+
+
+                <EditText
+                    android:id="@+id/security"
+                    android:inputType="numberDecimal"
+                    android:gravity="right"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="টাকার পরিমাণ "
+                    android:textSize="@dimen/_15sdp"
+                    android:textColor="#393939"
+                    android:layout_marginRight="@dimen/_2sdp"
+                    android:background="@drawable/editshape"
+                    android:paddingLeft="@dimen/_5sdp"
+                    android:paddingRight="@dimen/_5sdp"
+                    />
+
+            </LinearLayout>
+
+
+            //================ NOGOD ORTHO =========================//
+
+
+
+
+            //================= BUSINESS GOODS ========================//
+
+
+
+            <TextView
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ব্যবসার পণ্য "
+                android:textSize="@dimen/_18sdp"
+                android:textStyle="bold"
+                android:textColor="#393939"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2"
+                >
+
+                <TextView
+                    android:gravity="left"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="বিক্রয়ের জন্য পণ্য"
+                    android:textSize="@dimen/_15sdp"
+                    android:textColor="#393939"
+                    android:layout_marginLeft="@dimen/_2sdp"
+                    />
+
+
+                <EditText
+                    android:id="@+id/sell_product"
+                    android:inputType="numberDecimal"
+                    android:gravity="right"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="টাকার পরিমাণ "
+                    android:textSize="@dimen/_15sdp"
+                    android:textColor="#393939"
+                    android:layout_marginRight="@dimen/_2sdp"
+                    android:background="@drawable/editshape"
+                    android:paddingLeft="@dimen/_5sdp"
+                    android:paddingRight="@dimen/_5sdp"
+                    />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_marginTop="@dimen/_5sdp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2"
+                >
+
+                <TextView
+                    android:gravity="left"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="উৎপাদিত পণ্য "
+                    android:textSize="@dimen/_15sdp"
+                    android:textColor="#393939"
+                    android:layout_marginLeft="@dimen/_2sdp"
+                    />
+
+
+                <EditText
+                    android:id="@+id/utpadito_ponno"
+                    android:inputType="number"
+                    android:gravity="right"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="টাকার পরিমাণ "
+                    android:textSize="@dimen/_15sdp"
+                    android:textColor="#393939"
+                    android:layout_marginRight="@dimen/_2sdp"
+                    android:background="@drawable/editshape"
+                    android:paddingLeft="@dimen/_5sdp"
+                    android:paddingRight="@dimen/_5sdp"
+                    tools:ignore="DuplicateIds" />
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_marginTop="@dimen/_5sdp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2"
+                >
+
+                <TextView
+                    android:gravity="left"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="শেয়ার "
+                    android:textSize="@dimen/_15sdp"
+                    android:textColor="#393939"
+                    android:layout_marginLeft="@dimen/_2sdp"
+                    />
+
+
+                <EditText
+                    android:id="@+id/share"
+                    android:inputType="numberDecimal"
+                    android:gravity="right"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="টাকার পরিমাণ "
+                    android:textSize="@dimen/_15sdp"
+                    android:textColor="#393939"
+                    android:layout_marginRight="@dimen/_2sdp"
+                    android:background="@drawable/editshape"
+                    android:paddingLeft="@dimen/_5sdp"
+                    android:paddingRight="@dimen/_5sdp"
+                    />
+
+            </LinearLayout>
+
+
+
+            //================= BUSINESS GOODS ========================//
+
+
+
+
+            //===================== PAYABLE LOAN ======================//
+
+            <TextView
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="আর্থিক ঋণ "
+                android:textSize="@dimen/_18sdp"
+                android:textStyle="bold"
+                android:textColor="#393939"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2"
+                >
+
+                <TextView
+                    android:gravity="left"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="ব্যক্তিগত ঋণ "
+                    android:textSize="@dimen/_15sdp"
+                    android:textColor="#393939"
+                    android:layout_marginLeft="@dimen/_2sdp"
+                    />
+
+
+                <EditText
+                    android:id="@+id/personalLoan"
+                    android:inputType="numberDecimal"
+                    android:gravity="right"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="টাকার পরিমাণ "
+                    android:textSize="@dimen/_15sdp"
+                    android:textColor="#393939"
+                    android:layout_marginRight="@dimen/_2sdp"
+                    android:background="@drawable/editshape"
+                    android:paddingLeft="@dimen/_5sdp"
+                    android:paddingRight="@dimen/_5sdp"
+                    />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_marginTop="@dimen/_5sdp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2"
+                >
+
+                <TextView
+                    android:gravity="left"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="ব্যবসায়ীক ঋণ "
+                    android:textSize="@dimen/_15sdp"
+                    android:textColor="#393939"
+                    android:layout_marginLeft="@dimen/_2sdp"
+                    />
+
+
+                <EditText
+                    android:id="@+id/commercialLoan"
+                    android:inputType="number"
+                    android:gravity="right"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="টাকার পরিমাণ "
+                    android:textSize="@dimen/_15sdp"
+                    android:textColor="#393939"
+                    android:layout_marginRight="@dimen/_2sdp"
+                    android:background="@drawable/editshape"
+                    android:paddingLeft="@dimen/_5sdp"
+                    android:paddingRight="@dimen/_5sdp"
+                    tools:ignore="DuplicateIds" />
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_marginTop="@dimen/_5sdp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2"
+                >
+
+                <TextView
+                    android:gravity="left"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="ভাড়া "
+                    android:textSize="@dimen/_15sdp"
+                    android:textColor="#393939"
+                    android:layout_marginLeft="@dimen/_2sdp"
+                    />
+
+
+                <EditText
+                    android:id="@+id/vara"
+                    android:inputType="numberDecimal"
+                    android:gravity="right"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="টাকার পরিমাণ "
+                    android:textSize="@dimen/_15sdp"
+                    android:textColor="#393939"
+                    android:layout_marginRight="@dimen/_2sdp"
+                    android:background="@drawable/editshape"
+                    android:paddingLeft="@dimen/_5sdp"
+                    android:paddingRight="@dimen/_5sdp"
+                    />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_marginTop="@dimen/_5sdp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2"
+                >
+
+                <TextView
+                    android:gravity="left"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="বেতন "
+                    android:textSize="@dimen/_15sdp"
+                    android:textColor="#393939"
+                    android:layout_marginLeft="@dimen/_2sdp"
+                    />
+
+
+                <EditText
+                    android:id="@+id/sallary"
+                    android:inputType="numberDecimal"
+                    android:gravity="right"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="টাকার পরিমাণ "
+                    android:textSize="@dimen/_15sdp"
+                    android:textColor="#393939"
+                    android:layout_marginRight="@dimen/_2sdp"
+                    android:background="@drawable/editshape"
+                    android:paddingLeft="@dimen/_5sdp"
+                    android:paddingRight="@dimen/_5sdp"
+                    />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_marginTop="@dimen/_5sdp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2"
+                >
+
+                <TextView
+                    android:gravity="left"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="পরিশোধযোগ্য ক্রয় "
+                    android:textSize="@dimen/_15sdp"
+                    android:textColor="#393939"
+                    android:layout_marginLeft="@dimen/_2sdp"
+                    />
+
+
+                <EditText
+                    android:id="@+id/payable_bye"
+                    android:inputType="numberDecimal"
+                    android:gravity="right"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="টাকার পরিমাণ "
+                    android:textSize="@dimen/_15sdp"
+                    android:textColor="#393939"
+                    android:layout_marginRight="@dimen/_2sdp"
+                    android:background="@drawable/editshape"
+                    android:paddingLeft="@dimen/_5sdp"
+                    android:paddingRight="@dimen/_5sdp"
+                    />
+
+            </LinearLayout>
+
+            //===================== PAYABLE LOAN ======================//
+
+
+
+            //===================== BUTTON ======================//
+
+
+
+
+            <LinearLayout
+                android:layout_marginTop="@dimen/_30sdp"
+                android:layout_marginBottom="@dimen/_30sdp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2"
+
+                >
+
+
+                <Button
+                    android:id="@+id/delete"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="মুছুন"
+                    android:textSize="@dimen/_16sdp"
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:textColor="#393939"
+                    android:layout_marginRight="@dimen/_2sdp"
+                    />
+
+
+                <Button
+                    android:id="@+id/calculate"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="হিসাব করুন"
+                    android:textSize="@dimen/_16sdp"
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:textColor="#393939"
+                    android:layout_marginRight="@dimen/_4sdp"
+                    />
+
+
+
+
+
+
+            </LinearLayout>
+
+
+            //===================== BUTTON ======================//
+
+
+
+
+
+
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</LinearLayout>

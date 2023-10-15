@@ -754,10 +754,111 @@
 
 
 
-            //===================== PAYABLE LOAN ======================//
+
+
+            //================= Animals Starting here ========================//
+
+
 
             <TextView
                 android:layout_marginTop="@dimen/_10sdp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="গৃহপালিত পশু "
+                android:textSize="@dimen/_18sdp"
+                android:textStyle="bold"
+                android:textColor="#393939"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2"
+                >
+
+                <TextView
+                    android:gravity="left"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="গরু/মহিষ"
+                    android:textSize="@dimen/_15sdp"
+                    android:textColor="#393939"
+                    android:layout_marginLeft="@dimen/_2sdp"
+                    />
+
+
+                <EditText
+                    android:id="@+id/cow"
+                    android:ems="10"
+                    android:inputType="numberDecimal"
+                    android:gravity="right"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="গরু/মহিষের পরিমাণ "
+                    android:textSize="@dimen/_15sdp"
+                    android:textColor="#393939"
+                    android:layout_marginRight="@dimen/_2sdp"
+                    android:background="@drawable/editshape"
+                    android:paddingLeft="@dimen/_5sdp"
+                    android:paddingRight="@dimen/_5sdp"
+                    />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_marginTop="@dimen/_5sdp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2"
+                >
+
+                <TextView
+                    android:gravity="left"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="ছাগল / ভেড়া "
+                    android:textSize="@dimen/_15sdp"
+                    android:textColor="#393939"
+                    android:layout_marginLeft="@dimen/_2sdp"
+                    />
+
+
+                <EditText
+                    android:id="@+id/goat_shep"
+                    android:inputType="number"
+                    android:gravity="right"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="ছাগল/ভেড়ার পরিমাণ "
+                    android:textSize="@dimen/_15sdp"
+                    android:textColor="#393939"
+                    android:layout_marginRight="@dimen/_2sdp"
+                    android:background="@drawable/editshape"
+                    android:paddingLeft="@dimen/_5sdp"
+                    android:paddingRight="@dimen/_5sdp"
+                    tools:ignore="DuplicateIds" />
+
+
+            </LinearLayout>
+
+
+
+
+            //================= Animals Ending here ========================//
+
+
+
+
+            //===================== PAYABLE LOAN ======================//
+
+            <TextView
+                android:layout_marginTop="@dimen/_50sdp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="আর্থিক ঋণ "

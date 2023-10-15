@@ -26,7 +26,8 @@
 
     <com.airbnb.lottie.LottieAnimationView
         android:id="@+id/progress"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
+        android:padding="@dimen/_100sdp"
         android:layout_height="@dimen/_80sdp"
         android:layout_above="@id/developer"
         android:layout_alignParentLeft="true"
@@ -36,15 +37,14 @@
         android:scaleType="center"
         app:lottie_autoPlay="true"
         app:lottie_loop="true"
-        app:lottie_rawRes="@raw/loading_2"
-        />
+        app:lottie_rawRes="@raw/loading_2" />
 
 
     <TextView
         android:id="@+id/developer"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Developed by Shaon"
+        android:text="Developed by SHAON"
         android:textSize="16sp"
         android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
